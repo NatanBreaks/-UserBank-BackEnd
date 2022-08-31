@@ -1,12 +1,12 @@
-GET http://localhost:3003/dados/55495000
+GET https://userbank-case.herokuapp.com/dados/55495000
 ###
 
-PUT http://localhost:3003/dados 
+PUT https://userbank-case.herokuapp.com/dados 
 Content-Type: application/json
 
 {
     "nome": "Luke",
-    "cpf": "1111111111",
+    "cpf": "111111123111",
     "data_nascimento": "2000/02/18" ,
     "saldo": 3000,
     "limite": 3000,
@@ -22,12 +22,8 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3003/usuarios
+GET https://userbank-case.herokuapp.com/usuarios
 
 ###
 
-DELETE http://localhost:3003/usuarios/:cpf
-
-{
-
-}
+DELETE https://userbank-case.herokuapp.com/usuarios/111111123111
