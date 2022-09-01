@@ -1,7 +1,7 @@
-GET https://userbank-case.herokuapp.com/dados/55495000
+GET http://localhost:3003/dados/55495000
 ###
 
-PUT https://userbank-case.herokuapp.com/dados 
+PUT http://localhost:3003/dados 
 Content-Type: application/json
 
 {
@@ -22,8 +22,21 @@ Content-Type: application/json
 
 ###
 
-GET https://userbank-case.herokuapp.com/usuarios
+GET http://localhost:3003/usuarios
 
 ###
 
-DELETE https://userbank-case.herokuapp.com/usuarios/111111123111
+DELETE http://localhost:3003/usuarios/111111123111
+
+###
+
+PUT http://localhost:3003/dados/img 
+Content-Type: application/json
+
+{
+    "cpf": "11111121111",
+    "avatar_url": "alterada"
+}
+
+
+# https://userbank-case.herokuapp.com/

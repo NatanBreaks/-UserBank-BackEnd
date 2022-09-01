@@ -16,17 +16,11 @@ export class CadastroBussiness {
 
         try {
 
-            if (!nome || !cpf || !data_nascimento || !saldo || !limite) {
+            if (!nome || !cpf || !data_nascimento) {
                 throw new Error("Enter a User data");
             }
             if (!cep) {
                 throw new Error("Enter a zip code");
-            }
-            if (!logradouro || !bairro || !numero || !cidade || !uf) {
-                throw new Error("Enter location data");
-            }
-            if (!avatar_url) {
-                throw new Error("Enter a Avatar URL");
             }
 
             const dadosDeCadastro = new DADOS(
