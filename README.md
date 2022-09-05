@@ -19,10 +19,6 @@ O objetivo deste desafio é avaliar o domínio das habilidades FullStack, a orga
 
 ✅ APIs para enviar e receber os dados;
 
-✅ Resetar banco de dados clicando no ícone no canto superior esquerdo da tabela;
-
-✅ Representar tabela por meio de um gráfico dinâmico.
-
 
 ## :hammer_and_wrench: Ferramentas 
 
@@ -31,10 +27,8 @@ O objetivo deste desafio é avaliar o domínio das habilidades FullStack, a orga
 - [Typescript](https://www.typescriptlang.org/docs/);
 - [Express](http://expressjs.com/);
 - [Knex](http://knexjs.org/guide/);
-- [UUID](https://www.npmjs.com/package/uuid);
 - [Dotenv](https://www.npmjs.com/package/dotenv);
 - [MySQL](https://dev.mysql.com/doc/);
-- [Jest](https://jestjs.io/pt-BR/).
 
 ## ✍️ Layout Proposto
 
