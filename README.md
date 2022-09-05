@@ -1,8 +1,7 @@
 # :scroll: UserBank-BackEnd
 
 
-O objetivo deste desafio é avaliar o domínio das habilidades FullStack, a organização, estilo, e boas práticas com código, criação de APIs, conhecimento de frameworks e tecnologias.
-
+O objetivo deste desafio é Fazer um CRUD no Back-end e consumir no Front-end.
 
 
 ## :link: Link Surge 
