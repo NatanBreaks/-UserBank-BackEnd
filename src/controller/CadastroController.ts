@@ -51,7 +51,7 @@ export class CadastroController {
                 message: `Cep recebido`, Bcep
             })
         } catch (error: any) {
-            throw new Error(error.message);
+            throw new Error(error.message || "erro inesperado");
         }
     }
 }
