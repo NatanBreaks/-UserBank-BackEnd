@@ -1,7 +1,7 @@
 # :scroll: UserBank-BackEnd
 
 
-O objetivo deste desafio é Fazer um CRUD no Back-end e consumir no Front-end.
+O objetivo deste desafio / case é Fazer um CRUD no Back-end e consumir no Front-end.
 
 
 ## :link: Link Surge 
