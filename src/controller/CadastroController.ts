@@ -33,7 +33,8 @@ export class CadastroController {
                 message: `Dados adicionado`, DadosUsuarios
             })
         } catch (error: any) {
-            res.status(error.statusCode || 500).send({
+            res.status(error.statusCode || 500)
+            .send({
                 message: error.message
             })
         }
