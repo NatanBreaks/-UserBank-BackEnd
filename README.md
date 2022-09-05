@@ -30,13 +30,6 @@ O objetivo deste desafio é avaliar o domínio das habilidades FullStack, a orga
 - [Dotenv](https://www.npmjs.com/package/dotenv);
 - [MySQL](https://dev.mysql.com/doc/);
 
-## ✍️ Layout Proposto
-
-![image](https://user-images.githubusercontent.com/98998030/182635348-2c1baa99-0f68-48c3-8596-4330c1f021c1.png)
-
-## :computer: Layout Desenvolvido
-
-![image](https://user-images.githubusercontent.com/98998030/182630073-bbcfff83-355d-45fe-a9d1-7df8ab088df2.png)
 
 
 ## 👨‍💻 Desenvolvedor
