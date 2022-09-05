@@ -33,6 +33,6 @@ O objetivo deste desafio é avaliar o domínio das habilidades FullStack, a orga
 
 
 ## 👨‍💻 Desenvolvedor
-[<img src="https://avatars.githubusercontent.com/u/50851374?v=4" width=115><br><sub>Natã Lucas Silva</sub>](https://www.linkedin.com/in/nata-silva/) |
+[<img src="https://avatars.githubusercontent.com/u/99276733?v=4" width=115><br><sub>Natã Lucas Silva</sub>](https://www.linkedin.com/in/nata-silva/) |
 | :---: |
 
