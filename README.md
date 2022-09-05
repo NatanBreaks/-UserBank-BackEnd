@@ -24,8 +24,8 @@ O objetivo deste desafio é avaliar o domínio das habilidades FullStack, a orga
 
 ### 🍮 Frontend
 - [React](https://pt-br.reactjs.org/);
-- [Typescript](https://www.typescriptlang.org/docs/);
-- [React-toastify](https://fkhadra.github.io/react-toastify/introduction/);
+- [JavaScript](https://www.javascript.com/);
+- [Material-UI](https://mui.com/pt/);
 - [React-icons](https://react-icons.github.io/react-icons/);
 - [Axios](https://axios-http.com/ptbr/docs/intro/);
 - [Styled-components](https://styled-components.com/docs/);
