@@ -10,8 +10,8 @@ O objetivo deste desafio / case é Fazer um CRUD no Back-end e consumir no Front
 ## :link: Link Documentação - Back
 - Acesse a documentação clicando no [link](https://documenter.getpostman.com/view/20351905/VUxPvTDD).
 
-## :link: Github BackEnd:
-https://github.com/NatanBreaks/-UserBank-BackEnd/
+## :link: Github FrontEnd:
+https://github.com/NatanBreaks/-UserBank-FrontEnd/
 
 
 ## ⚙️ Funcionalidades
