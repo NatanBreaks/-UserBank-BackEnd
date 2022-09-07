@@ -50,3 +50,4 @@ app.get("/usuarios", buscaUsusariosController.pegarCadastro)
 app.delete("/usuarios/:cpf", deletarController.delete)
 
 app.put("/dados/img", alterarImgController.alterarImg )
+//
