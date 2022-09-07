@@ -43,6 +43,8 @@ const alterarImgController = new AlterarImgController (
 
 app.put("/dados", cadastroController.cadastro)
 
+app.put("/dados/update", cadastroController.update)
+
 app.get("/dados/:cep", cadastroController.buscaCep)
 
 app.get("/usuarios", buscaUsusariosController.pegarCadastro)

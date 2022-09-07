@@ -1,15 +1,16 @@
 GET https://userbank-case.herokuapp.com/dados/55495000
 ###
 
-PUT https://userbank-case.herokuapp.com/dados 
+
+PUT http://localhost:3003/dados/update
 Content-Type: application/json
 
 {
     "nome": "Luke",
     "cpf": "111111123111",
     "data_nascimento": "2000/02/18" ,
-    "saldo": 3000,
-    "limite": 3000,
+    "saldo": 300000,
+    "limite": 3000000,
     "cep": "55555000",
     "logradouro": "Rua 1",
     "bairro": "Centro",
@@ -18,7 +19,6 @@ Content-Type: application/json
     "uf": "PE",
     "avatar_url": "https://img.quizur.com/f/img6210cb7ccdac11.44972119.jpg?lastEdited=164526785"
 }
-
 
 ###
 

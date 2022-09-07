@@ -17,6 +17,17 @@ export class CadastroData extends BaseDatabase {
         }
     }
 
+    update = async (dados: DATA) => {
+        try {
+            await this.connection(this.TABLE_NAME)
+                .update(dados)
+                .where({cpf: dados.cpf})
+        } catch (error: any) {
+            throw new Error(error.sqlMessage || error.message)
+        }
+    }
+
+
     buscaCep = async (cep: string) => {
         try {
             const response = await

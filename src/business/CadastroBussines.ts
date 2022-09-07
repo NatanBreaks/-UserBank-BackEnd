@@ -44,6 +44,43 @@ export class CadastroBussiness {
         }
     }
 
+    update = async (campos: DATA) => {
+
+        const { nome, cpf, data_nascimento, saldo, limite, cep, logradouro, bairro, numero, cidade, uf, avatar_url } = campos
+
+        try {
+
+            if (!nome || !cpf || !data_nascimento) {
+                throw new Error("Enter a User data");
+            }
+            if (!cep) {
+                throw new Error("Enter a zip code");
+            }
+
+            const dadosDeCadastro: DATA = {
+                nome,
+                cpf,
+                data_nascimento,
+                saldo,
+                limite,
+                cep,
+                logradouro,
+                bairro,
+                numero,
+                cidade,
+                uf,
+                avatar_url
+
+            }
+
+            await this.cadastroData.update(dadosDeCadastro)
+        } catch (error: any) {
+            throw new Error(error.sqlMessage || error.message);
+        }
+    }
+
+
+
     buscaCep =async (cep: string) => {
         try {
             const Bcep = await 
