@@ -2,7 +2,7 @@ GET https://userbank-case.herokuapp.com/dados/55495000
 ###
 
 
-PUT http://localhost:3003/dados/update
+PUT https://userbank-case.herokuapp.com/dados/update
 Content-Type: application/json
 
 {

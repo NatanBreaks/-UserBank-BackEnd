@@ -79,8 +79,7 @@ export class CadastroController {
         const cep = req.params.cep
         try {
             const Bcep = await 
-            this.cadastroBussines.buscaCep(cep)
-            
+            this.cadastroBussines.buscaCep(cep)         
             res.status(200).send({
                 message: `Cep recebido`, Bcep
             })
